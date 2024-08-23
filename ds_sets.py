@@ -21,3 +21,10 @@ another_set.pop()
 print(another_set)
 another_set.add(3.14)
 print(another_set)
+
+# Python consists of built-in types, that can be constructed using built-in functions
+
+test_dictionary = dict(age=24, height=179)
+print(test_dictionary)
+test_dictionary.update(age=12, height = 130)
+print(test_dictionary)
