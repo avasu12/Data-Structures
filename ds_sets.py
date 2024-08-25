@@ -1,3 +1,33 @@
+'''
+
+Data Structures
+
+Physical implementation (organization) of various types of data
+They can be point structures (small/smallest addressable units of data) or sets (a collection of data points)
+
+'''
+
+'''
+
+Point structures:
+Primitive types
+Composite types
+Abstract types
+
+'''
+
+# None
+
+# Binary
+
+# Boolean
+
+# Integer, Float, Complex
+
+# String
+
+
+
 # Sets
 
 # Sets can be dynamic - grow, shrink, change
