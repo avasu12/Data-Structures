@@ -7,6 +7,7 @@ They can be point structures (small/smallest addressable units of data) or sets 
 
 '''
 
+
 '''
 
 Point structures:
@@ -28,14 +29,13 @@ Abstract types
 
 
 
-# Sets
+'''
+Set structures
 
 # Sets can be dynamic - grow, shrink, change
 # Sets are immutable, and contain no duplicates
 
-random_set = {0, 1, 1, 2, 3, 5, 8}
-
-print(random_set)
+'''
 
 ''' 
 Categories of operations on sets: 
@@ -43,18 +43,12 @@ Categories of operations on sets:
 2. Modifications
 '''
 
-print(len(random_set))
-another_set = set((1, "five", False, 365, 0))
-print(another_set)
-print(len(another_set))
-another_set.pop()
-print(another_set)
-another_set.add(3.14)
-print(another_set)
+'''
+Arrays
+'''
 
-# Python consists of built-in types, that can be constructed using built-in functions
+# Sets can't be arrays because they aren't ordered/indexable? Or stored contiguously in memory?
+list_array = ["Zara", "H&M", "Zodiac"]
+tuple_array = (True, False, True, True)
 
-test_dictionary = dict(age=24, height=179)
-print(test_dictionary)
-test_dictionary.update(age=12, height = 130)
-print(test_dictionary)
+print(list_array[2])
