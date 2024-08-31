@@ -52,3 +52,23 @@ list_array = ["Zara", "H&M", "Zodiac"]
 tuple_array = (True, False, True, True)
 
 print(list_array[2])
+
+'''
+Matrices
+'''
+
+# Two dimensional arrays
+row_major_matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+column_major_matrix = [
+    [1, 4, 7],
+    [2, 5, 8],
+    [3, 6, 9]
+]
+
+print(row_major_matrix[1][2])
+print(column_major_matrix[2][0]
