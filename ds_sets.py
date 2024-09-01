@@ -77,7 +77,10 @@ print(column_major_matrix[2][0])
 Stacks
 '''
 
-class Stack:
+class DataStructure:
+    test_variable = 99
+
+class Stack(DataStructure):
     random_property = "test"
     x = []
 
@@ -98,3 +101,33 @@ object.push(56)
 print(object.x)
 object.pop()
 
+
+'''
+Linked Lists
+'''
+
+
+class Node:
+    data_value = None
+    next_value = None
+
+    def __init__(self, new_value):
+        self.data_value = new_value
+
+    def append(self, new_value):
+        new_node = Node(new_value)
+        self.next_value = new_node
+
+'''
+class LinkedList:
+    first_node = None
+
+    def __init__(self):
+        self.first_node(
+'''  
+        
+
+test_node = Node(27)
+print(test_node.data_value)
+test_node.append(73)
+print(test_node.next_value.data_value)
