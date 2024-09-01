@@ -71,4 +71,30 @@ column_major_matrix = [
 ]
 
 print(row_major_matrix[1][2])
-print(column_major_matrix[2][0]
+print(column_major_matrix[2][0])
+
+'''
+Stacks
+'''
+
+class Stack:
+    random_property = "test"
+    x = []
+
+    def __init__(self):
+        self.x = []
+
+    def push(self, element):
+        self.x.append(element)
+
+    def pop(self):
+        element = self.x.pop()
+        return element
+
+object = Stack()
+print(object.x)
+object.push(12)
+object.push(56)
+print(object.x)
+object.pop()
+
