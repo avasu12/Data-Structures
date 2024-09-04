@@ -18,15 +18,23 @@ Abstract types
 '''
 
 # None
+empty_variable = None
 
 # Binary
 
+
 # Boolean
+an_identifier = False
 
 # Integer, Float, Complex
+int_identifier = 17
+float_identifier = 9.8
+complex_identifier = 14 +3j
 
 # String
-
+string_identifier = "This is a line of text."
+multiline_string_identifier = '''Two lines
+of text'''
 
 
 '''
