@@ -140,3 +140,13 @@ print(test_node.data_value)
 test_node.append(73)
 print(test_node.next_value.data_value)
 print(type(test_node).__mro__)
+
+
+'''
+Hash Tables
+'''
+
+# Dictionary
+score_dictionary = {'megan': 89, 'jake': 55, 'sue':77, 'mike': 99, 'orwell':91}
+print(score_dictionary)
+print(score_dictionary['orwell'])
