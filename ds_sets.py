@@ -36,6 +36,19 @@ string_identifier = "This is a line of text."
 multiline_string_identifier = '''Two lines
 of text'''
 
+# Bytes
+print(b'This is binary text')
+
+# Bytearray
+print(bytearray(b'\xf0\xb1\xc2').hex())
+
+# Memoryview
+test = memoryview(b'Acidophilus')
+print(test[1])
+# Sets
+
+# FrozenSet
+
 
 '''
 Set structures
