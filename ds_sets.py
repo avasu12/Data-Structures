@@ -1,3 +1,5 @@
+import sys
+
 '''
 
 Data Structures
@@ -19,12 +21,18 @@ Abstract types
 
 # None
 empty_variable = None
+print(type(empty_variable))
+print(id(empty_variable))
+print(sys.getsizeof(empty_variable))
 
 # Binary
 
 
 # Boolean
 an_identifier = False
+print(type(an_identifier))
+print(id(an_identifier))
+print(sys.getsizeof(an_identifier))
 
 # Integer, Float, Complex
 int_identifier = 17
@@ -45,7 +53,9 @@ print(bytearray(b'\xf0\xb1\xc2').hex())
 # Memoryview
 test = memoryview(b'Acidophilus')
 print(test[1])
+
 # Sets
+
 
 # FrozenSet
 
