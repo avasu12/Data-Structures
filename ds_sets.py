@@ -61,7 +61,9 @@ print(id(fictional_characters))
 print(sys.getsizeof(fictional_characters))
 
 # FrozenSet
-
+frozen_fictional_characters = frozenset(fictional_characters)
+print(frozen_fictional_characters)
+print(sys.getsizeof(frozen_fictional_characters))
 
 '''
 Set structures
