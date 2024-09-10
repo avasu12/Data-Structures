@@ -55,7 +55,10 @@ test = memoryview(b'Acidophilus')
 print(test[1])
 
 # Sets
-
+fictional_characters = {"Rick Sanchez", "Morty Smith", "Beth Smith", "Jerry Smith", "Summer Smith"}
+print(len(fictional_characters))
+print(id(fictional_characters))
+print(sys.getsizeof(fictional_characters))
 
 # FrozenSet
 
