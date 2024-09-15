@@ -25,7 +25,21 @@ print(type(empty_variable))
 print(id(empty_variable))
 print(sys.getsizeof(empty_variable))
 
-# Binary
+# Binary - bytes, bytearray, memoryview
+byte_structure = bytes.fromhex('2Ef0 F1f2  ')
+print(byte_structure)
+byte_array_structure = bytearray.fromhex('2Ef0 F1f2  ')
+print(byte_array_structure)
+
+# Bytes
+print(b'This is binary text')
+
+# Bytearray
+print(bytearray(b'\xf0\xb1\xc2').hex())
+
+# Memoryview
+test = memoryview(b'Acidophilus')
+print(test[1])
 
 
 # Boolean
@@ -44,15 +58,6 @@ string_identifier = "This is a line of text."
 multiline_string_identifier = '''Two lines
 of text'''
 
-# Bytes
-print(b'This is binary text')
-
-# Bytearray
-print(bytearray(b'\xf0\xb1\xc2').hex())
-
-# Memoryview
-test = memoryview(b'Acidophilus')
-print(test[1])
 
 # Sets
 fictional_characters = {"Rick Sanchez", "Morty Smith", "Beth Smith", "Jerry Smith", "Summer Smith"}
