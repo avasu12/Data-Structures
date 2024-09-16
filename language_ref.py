@@ -38,3 +38,13 @@ def write_message():
 
 write_message()
 print(y)
+
+
+# The with statement
+
+with open('algorithms.py', 'r') as file:
+    # print(file.read())
+    print(file.__enter__())
+    print(file.__exit__)
+    file.close()
+    file.close()
