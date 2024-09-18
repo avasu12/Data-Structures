@@ -9,6 +9,11 @@ variable_two = 'string'
 
 assert variable_one == variable_two
 
+integer_var = 17
+float_var = 18.0
+
+assert integer_var > float_var, "Assertion message"
+
 
 # The pass keyword
 
@@ -48,3 +53,8 @@ with open('algorithms.py', 'r') as file:
     print(file.__exit__)
     file.close()
     file.close()
+
+# The type statement
+
+type Coordinate = tuple[float, float]
+print(Coordinate)
